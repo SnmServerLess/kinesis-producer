@@ -1,0 +1,9 @@
+npm init -y
+
+npm i typescript --save
+npm i @types/node --save
+
+npx tsc --init
+npm install @aws-sdk/client-kinesis
+npm install @faker-js/faker
+npm install --save-dev @faker-js/faker
